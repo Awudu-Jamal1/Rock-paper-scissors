@@ -6,6 +6,14 @@ const middles= document.querySelector(".middle")
 const pscore= document.querySelector(".pScore span")
 const cscore= document.querySelector(".cScore span")
 const restart = document.querySelector(".restart button")
+const start = document.querySelector(".startBtn button")
+const startA = document.querySelector(".startBtn")
+const game = document.querySelector(".game")
+
+start.addEventListener('click',()=>{
+   startA.style.display ='none'
+   game.style.display ='block'
+})
 
 const options = ["rock", "paper","scissor"]
 let player;
